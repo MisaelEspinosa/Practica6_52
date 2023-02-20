@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 6</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <H2>FORMULARIOS
+        </H2>
+        <form action="">
+            <fieldset>
+                <legend>Datos Generales</legend>
+
+                <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre">
+                </div>
+
+                <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad">
+                </div>
+                <div>
+                    <label for="clave">password</label>
+                    <input type="password" name="clave" id="clave">
+                </div>
+                <div>
+                    <label for="cf">Color:</label>
+                    <input type="color" name="cf" id="cf">
+                </div>
+
+                <div>
+                    <label for="dias">Dias</label>
+                    <input type="range" min="1" max="10" name="dias" id="dias">
+                </div>
+                <div>
+                    <label for="sucursal">Sucursal</label>
+                    <select name="sucursal" id="">
+                        <option value="1">Centro</option>
+                        <option value="3">Sur</option>
+                        <option value="8">Universidad</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="s3">Sucursal</label>
+                    <select name="s3" id="s3">
+                        <optgroup>
+                            <option value="1">Centro</option>
+                            <option value="2">Universidad</option>
+                        </optgroup>
+                        <optgroup>
+                            <option value="4">Benito juarez</option>
+                            <option value="5">Huatez</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="info">Observacion:</label>
+                    <textarea name="info" id="info" cols="30" rows="10"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+        <h2>Tablas html</h2>
+
+        <table border="1px">
+            <tr>
+                <th>Matricula</th>
+                <th>Nombre</th>
+                <th>Carrera</th>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Misael</td>
+                <td>LTI</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Hugo</td>
+                <td rowspan="2">LTI</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Lorem 4</td>
+            </tr>
+        </table>
+        <hr>
+        <table border="1px">
+            <thead>
+                <tr>
+                    <th colspan="3">Lenguajes</th>
+                </tr>
+                <tr>
+                    <th>Python</th>
+                    <th>C#</th>
+                    <th>Java</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Multiplataforma</td>
+                    <td>Windows</td>
+                    <td>Multiplataforma</td>
+                </tr>
+                <tr>
+                    <td>2005</td>
+                    <td>2000</td>
+                    <td>1995</td>
+                </tr>
+                <tr>
+                    <td>Guidem chan</td>
+                    <td>Anders</td>
+                    <td>James Gosling</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">&copy;Derechos reservados</td>
+                </tr>
+                <tr>
+                    <td colspan="3">MER</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <aside></aside>
+    <footer></footer>
+</body>
+</html>
